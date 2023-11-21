@@ -31,7 +31,7 @@ response = requests.post(url, data=json_data, headers=headers)
 
 Receiving data: The microservice will return a json with the time held in "Time_Stamp". 
 
-//To see what the response is you can add these lines 
+To see what the response is you can add these lines 
 ```
 print(response.status_code)
 print(response.json())
