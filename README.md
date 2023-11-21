@@ -42,5 +42,6 @@ The response should look something like this:
 {'Time_Stamp': '18:25:43'}
 ```
 
+# UML Sequence Diagram
 
 ![image](https://github.com/hernada3/CS361_microservice/assets/147652557/06d95ea5-a325-4afa-b8bf-b8ca7eae845a)
