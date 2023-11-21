@@ -3,14 +3,14 @@
 Requesting data: Once starting the microservice it will be waiting for a request on the url and port it was started on. You can request data by running a post call, and sending a json containing "message_datetime". 
 An example call in python would be:
 
-# Libraries
+#Libraries
 import requests
 import json
 
-# URL you are going to send the request to
+#URL you are going to send the request to
 url = 'http://localhost:3000/Time'
 
-# Example JSON that you are sending
+#Example JSON that you are sending
 message = {
     'message_datetime': '2012-04-23T18:25:43',
     'message_text': 'Yo',
@@ -20,10 +20,10 @@ message = {
 
 json_data = json.dumps(message)
 
-# Sending as JSON
+#Sending as JSON
 headers = {'Content-Type': 'application/json'}
 
-# Example request to the URL, sending the data as JSON
+#Example request to the URL, sending the data as JSON
 response = requests.post(url, data=json_data, headers=headers)
 
 
